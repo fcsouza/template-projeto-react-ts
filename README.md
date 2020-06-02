@@ -1,44 +1,61 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h1 align="center">
+    <img alt="templatenode" title="#template" src=".github/logo.png" width="350px" />
+    <p>Template para projetos ReactJs com Typescript, ESLint & Prettier</p>
+</h1>
 
-## Available Scripts
+<h4 align="center">
+	Template para facilitar o desenvolvimento de projetos.
+</h4>
 
-In the project directory, you can run:
+<div align="center">
 
-### `yarn start`
+[![Status](https://img.shields.io/badge/status-active-success.svg)]()
+[![GitHub Issues](https://img.shields.io/github/languages/count/fcsouza/template-projeto-react-ts)]()
+[![GitHub Pull Requests](https://img.shields.io/github/last-commit/fcsouza/template-projeto-react-ts)]()
+[![Made By](https://img.shields.io/badge/Made%20By-Fabricio%20Cavalcante-brightgreen)]()
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](/LICENSE)
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+</div>
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+## 📝 Conteúdo
+<p align="center">
+<a href="#about">Sobre</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+<a href="#installing">Instalando</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+<a href="#built_using">Tecnologias Utilizadas</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+<a href="#authors">Autor</a>
+</p>
 
-### `yarn test`
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🧐 Sobre <a name = "about"></a>
 
-### `yarn build`
+Esse projeto foi criado com o intuito de facilitar o desenvolvimento de aplicações ReactJs com Typescript e configurado devidamento com Eslint e Prettier.
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+### ⚒ Instalando <a name = "installing"></a>
+```bash
+# Clone this repository
+$ git clone https://github.com/fcsouza/template-projeto-react-ts
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# Go into the repository
+$ cd template-projeto-react-ts
 
-### `yarn eject`
+# Install dependencies
+$ yarn install
+$ yarn start
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Start Develop
+```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## ⛏️ Tecnologias Utilizadas <a name = "built_using"></a>
+- [React](https://pt-br.reactjs.org/) - A declarative, efficient, and flexible JavaScript library for building user interfaces
+- [Typescript](https://www.typescriptlang.org/) - TypeScript is a typed superset of JavaScript that compiles to plain JavaScript.
+- [ESLint](https://eslint.org/) -  Tool for identifying and reporting on patterns found in ECMAScript/JavaScript code
+- [Prettier](https://prettier.io/) - Opinionated Code Formatter
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## ✍️ Autor <a name = "authors"></a>
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+- [@fcsouza](https://github.com/fcsouza)
 
-## Learn More
+## 🗒 Licença
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
